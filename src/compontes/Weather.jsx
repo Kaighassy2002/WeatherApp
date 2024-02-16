@@ -20,7 +20,7 @@ const Weather = () => {
     const location =document.getElementsByClassName("weather-location");
 
     humidity[0].innerHTML = data.main.humidity +"%";
-    wind[0].innerHTML = data.wind.speed="km/h";
+    wind[0].innerHTML = data.wind.speed +"km/h";
     temprature[0].innerHTML = data.main.temp+"°C";
     location[0].innerHTML = data.name
 
